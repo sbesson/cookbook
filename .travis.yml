@@ -4,3 +4,12 @@ sudo: false
 
 script:
   - make html
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: _build/html
+  on:
+    branch: master
