@@ -19,7 +19,6 @@
 
 import datetime
 project = u'Ox Posh Nosh'
-title = project
 author = u'Julie Welburn'
 copyright = u'2005-%d, ' % datetime.datetime.now().year + author
 
@@ -53,3 +52,5 @@ html_theme = 'nature'
 html_static_path = ['_static']
 
 html_sidebars = { '**' : ['globaltoc.html', 'relations.html',  'searchbox.html'] }
+
+html_title = project
