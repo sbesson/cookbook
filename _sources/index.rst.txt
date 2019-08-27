@@ -3,7 +3,7 @@ Ox Posh Nosh
 
 .. only:: html
 
-	.. figure:: images/cookbook.jpg
+	.. figure:: images/Cookbook.jpg
 		:align: center
 		:width: 40%
 .. toctree::
